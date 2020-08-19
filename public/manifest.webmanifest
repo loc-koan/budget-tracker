@@ -1,6 +1,6 @@
 {
-  "name": "Notetaker",
-  "short_name": "Notetaker",
+  "name": "Budget Tracker Application",
+  "short_name": "Budget Tracker",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
