@@ -1,61 +1,40 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+## Budget Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+This application records a user's personal finances.  It keeps track of a user's balance while online or offline.  The user enters the name of their transaction, places a value, and selects add/subtract.  The results are recorded in MongoDB / NoSQL and displayed in a chart. The app utilize IndexedDB, cache API, and Service Workers to provide an offline experience for the application.
 
-Offline Functionality:
+## Live:
 
-  * Enter deposits offline
+- [Heroku](xxxxx)
 
-  * Enter expenses offline
+## Key Features:
 
-When brought back online:
+- NoSQL
+- MongoDB
+- Object-document mapping
+- Mongoose.js
+- CRUD
 
-  * Offline entries should be added to tracker.
+## Links:
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+- [GitHub](https://github.com/loc-koan/budget-tracker)
+- [Heroku](xxxxx)
 
-## Business Context
+## Installation
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+- Clone the repository at [GitHub](https://github.com/loc-koan/budget-tracker) to view its code
+- Visit [Heroku](xxxxx) to see live application
 
+## Credits
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
+- [W3Schools](https://www.w3schools.com/)
+- [NodeJS](https://nodejs.org/docs/latest-v12.x/api/)
+- [ExpressJS](https://expressjs.com/en/starter/hello-world.html)
+- [Heroku](https://dashboard.heroku.com/apps)
+- [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
+- [MongoDB Website](https://www.mongodb.com/)
+- [Robo 3T Website](https://robomongo.org/download)
+- [MongoJS Documentation](https://www.npmjs.com/package/mongojs)
+- [Mongoose Documentation](http://mongoosejs.com/docs/guide.html)
