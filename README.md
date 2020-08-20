@@ -6,7 +6,7 @@ This application records a user's personal finances.  It keeps track of a user's
 
 ## Live:
 
-- [Heroku](xxxxx)
+- [Heroku](https://dashboard.heroku.com/apps/immense-bastion-10180)
 
 ## Key Features:
 
@@ -19,12 +19,12 @@ This application records a user's personal finances.  It keeps track of a user's
 ## Links:
 
 - [GitHub](https://github.com/loc-koan/budget-tracker)
-- [Heroku](xxxxx)
+- [Heroku](https://dashboard.heroku.com/apps/immense-bastion-10180)
 
 ## Installation
 
 - Clone the repository at [GitHub](https://github.com/loc-koan/budget-tracker) to view its code
-- Visit [Heroku](xxxxx) to see live application
+- Visit [Heroku](https://dashboard.heroku.com/apps/immense-bastion-10180) to see live application
 
 ## Credits
 
@@ -38,3 +38,8 @@ This application records a user's personal finances.  It keeps track of a user's
 - [Robo 3T Website](https://robomongo.org/download)
 - [MongoJS Documentation](https://www.npmjs.com/package/mongojs)
 - [Mongoose Documentation](http://mongoosejs.com/docs/guide.html)
+- [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
+- [Measure Web Performance With The RAIL Model](https://developers.google.com/web/fundamentals/performance/rail)
+- [Audit the Performance of Your Web Application](https://developers.google.com/web/fundamentals/performance/audit/)
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+- [Your First Progressive Web App](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/)
