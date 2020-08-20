@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
@@ -16,17 +17,17 @@ app.use(express.json());
 app.use(express.static("public"));
 
 /* original connection */
-mongoose.connect("mongodb://localhost/budget", {
-  useNewUrlParser: true,
-  useFindAndModify: false
-});
+// mongoose.connect("mongodb://localhost/budget", {
+//   useNewUrlParser: true,
+//   useFindAndModify: false
+// });
 
 /* for mongo atlas installation */ 
-// let uri = 'mongodb://localhost/budget';
+let uri = 'mongodb://localhost/budget';
 // if (process.env.NODE_ENV === 'production') {
-//   uri = process.env.MONGODB_URI;
+  uri = process.env.MONGODB_URI;
 // }
-// mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // routes
 app.use(require("./routes/api.js"));
